@@ -1,0 +1,23 @@
+<svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="26" height="25" fill="#E5E5E5"/>
+<g clip-path="url(#clip0_0_1)">
+<g clip-path="url(#clip1_0_1)">
+<rect width="1440" height="1930" transform="translate(-412 -1140)" fill="#BFD7E4"/>
+<path d="M1 8.60608C1 4.1878 4.58172 0.606079 9 0.606079H17C21.4183 0.606079 25 4.1878 25 8.60608V16.4041C25 20.8223 21.4183 24.4041 17 24.4041H9C4.58172 24.4041 1 20.8223 1 16.4041V8.60608Z" fill="#FAFAFC" stroke="#E6E6F0"/>
+<path d="M1 0.336731H25V12.3367C25 18.9641 19.6274 24.3367 13 24.3367V24.3367C6.37258 24.3367 1 18.9641 1 12.3367V0.336731Z" fill="url(#pattern0)"/>
+</g>
+</g>
+<rect x="-399.5" y="-1151.5" width="1479" height="3919" rx="4.5" stroke="#9747FF" stroke-dasharray="10 5"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_0_1" transform="scale(0.0416667)"/>
+</pattern>
+<clipPath id="clip0_0_1">
+<rect x="-400" y="-1152" width="1480" height="3920" rx="5" fill="white"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="1440" height="1930" fill="white" transform="translate(-412 -1140)"/>
+</clipPath>
+<image id="image0_0_1" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAIZJREFUSInt0LENwkAMRuEPwjasQxQK9qAkdKxBxRwpmInikKDJiQSBUJJLxb3Slp/tn0xmIOs55RsEnLrFZUL5BSvcEjl78oAHDlk+WV7gjN0ccijbwYDth37VkddD5ZF9K7jrf1JKmPn7kqTySO0V1+RYvhE/GX158aN/xQINjmMWZP6AJxjMLZ94pstxAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
