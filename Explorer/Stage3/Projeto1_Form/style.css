@@ -223,3 +223,32 @@ fieldset legend {
 
 }
 
+
+
+.fieldset-wrapper:nth-child(3) .input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset-wrapper:nth-child(3) .input-wrapper:nth-child(0) .input{
+  display: flex;
+  flex-direction: column;
+}
+
+#data {
+  width: 300px;
+}
+
+.date-time-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.agendamento {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hora-init, #hora-final {
+  width: 140px;
+}
