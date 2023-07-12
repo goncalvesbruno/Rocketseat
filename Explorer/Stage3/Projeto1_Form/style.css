@@ -93,6 +93,7 @@ fieldset {
   padding: 15px 64px 64px 64px;
  
   background: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
 
   gap: 32px
 }
@@ -129,7 +130,7 @@ fieldset legend {
   padding-left: 8px;
 }
 
-.input-wrapper input, .input-wrapper-nome input, .input-wrapper-sobrenome input{
+.input-wrapper input, .input-wrapper-nome input, .input-wrapper-sobrenome input, .input-wrapper select{
   display: flex;
   flex-direction: column;
   
@@ -137,7 +138,24 @@ fieldset legend {
   border: solid 1px #E6E6F0;
 
   line-height: 55px;
+  height: 55px;
   border-radius: 8px;
+}
+
+.input-wrapper select {
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  font-weight: normal;
+  padding-left: 8px;
+}
+
+.input-wrapper select:hover {
+  background-color: #eeeeee;
+}
+
+#escolha {
+  color: #C1BCCC;
 }
 
 .input-wrapper-nome{
@@ -198,10 +216,10 @@ fieldset legend {
 }
 
 .checkbox-wrapper input {
-  display: none;
   opacity: 0;
   top: 0;
   left: 0;
+  position: absolute;
   
 }
 
@@ -213,6 +231,10 @@ fieldset legend {
 
   border: 1px solid #E6E6F0;
   border-radius: 8px;
+}
+
+.checkbox-wrapper input:focus + label::before {
+  outline: 2px solid black;
 }
 /*
 .checkbox-input:hover + label::before {
