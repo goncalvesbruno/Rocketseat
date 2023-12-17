@@ -1,0 +1,7 @@
+Adicionar banco de dados ao projeto:
+  - Adicionar dependência data-jpa
+  - Adicionar dependência do postgresql;
+  - criar arquivo de configuração do docker (docker-compose.yml)
+  - rodar comando "docker-compose up -d" para dar o start no db
+  - rodar "docker ps" para certificar que o db iniciou corretamente
+  - em "application.properties" adicionar a URL do projeto
