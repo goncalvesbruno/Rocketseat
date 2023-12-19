@@ -2,6 +2,7 @@ package br.com.bruno.gestaovagas.modules.candidate.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.bruno.gestaovagas.exceptions.UserFoundException;
 import br.com.bruno.gestaovagas.modules.candidate.CandidateEntity;
 import br.com.bruno.gestaovagas.modules.candidate.CandidateRepository;
 import jakarta.validation.Valid;
@@ -27,6 +28,13 @@ public class CandidateController {
 
   //@valid irá informar ao Spring para validar os dados da Entity no momento da criação através do jakarta.validation.Valid
   public CandidateEntity create(@Valid @RequestBody CandidateEntity candidateEntity) {
+    // Testa se o usuário ou e-mail já existem. Caso existam, lança exceção
+    this.candidateRepository
+    .findByUsernameOrEmail(candidateEntity.getUsername(), candidateEntity.getEmail())
+    .ifPresent((user) -> {
+      throw new UserFoundException();
+    });
+ 
     return this.candidateRepository.save(candidateEntity);
   }
 }
